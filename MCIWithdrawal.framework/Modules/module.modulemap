@@ -1,0 +1,11 @@
+framework module MCIWithdrawal {
+  umbrella header "MCIWithdrawal.h"
+
+  export *
+  module * { export * }
+}
+
+module MCIWithdrawal.Swift {
+    header "MCIWithdrawal-Swift.h"
+    requires objc
+}
