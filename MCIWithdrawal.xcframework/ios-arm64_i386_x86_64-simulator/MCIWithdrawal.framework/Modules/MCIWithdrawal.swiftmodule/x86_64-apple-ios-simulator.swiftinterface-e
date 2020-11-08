@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios9.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MCIWithdrawal
+import Alamofire
+import Foundation
+import Kingfisher
+import MCIAuthCore
+import MCICheckoutCore
+import MCIFoundation
+import MCIIssuerViewerCore
+import MCIKit
+import MCILogger
+import MCISupportCore
+@_exported import MCIWithdrawal
+import MCIWithdrawalCore
+import Swift
+import UIKit
+public struct MCIWithdrawal : Withdrawalable {
+  public init()
+  public func present(_ controller: UIKit.UIViewController, transition: UIKit.UIModalTransitionStyle, completion: (() -> Swift.Void)?)
+  public func enableSupport(enabled: Swift.Bool)
+  public func configureDelegate(delegate: WithdrawalableDelegate)
+}
+@_hasMissingDesignatedInitializers final public class WithdrawConfig {
+  public static let shared: WithdrawConfig
+  final public var isSDK: Swift.Bool
+  final public var delegate: WithdrawalableDelegate?
+  final public var shouldShowOnboarding: Swift.Bool
+  final public var imageBanner: UIKit.UIImage?
+  final public var imageOnboardingFirst: UIKit.UIImage?
+  final public var imageOnboardingSecond: UIKit.UIImage?
+  final public var imageOnboardingThird: UIKit.UIImage?
+  @objc deinit
+}
+extension UIStoryboard {
+  public class var withdrawal: UIKit.UIStoryboard {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers final public class WithdrawValueVC : MCITableViewController, Identifiable {
+  @objc override final public func viewDidLoad()
+  @objc override final public func prepare(for segue: UIKit.UIStoryboardSegue, sender: Any?)
+  final public func configure(with accounts: [MCIAccount]?)
+  @objc deinit
+  @objc override dynamic public init(style: UIKit.UITableView.Style)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+extension WithdrawValueVC : CheckoutDelegate {
+  final public func didComplete(with object: Any?)
+}
+extension Bundle {
+  public static let withdrawal: Foundation.Bundle
+}
