@@ -9,9 +9,9 @@
 Pod::Spec.new do |spec|
 
   spec.name            = "WithdrawalKit"
-  spec.version         = "1.8.1"
+  spec.version         = "1.9.0"
   spec.summary         = "WithdrawalKit é framework destinado a Merci e seus parceiros."
-  spec.swift_versions  = ['5.2']
+  spec.swift_versions  = ['5.3']
 
   spec.description  = <<-DESC
   Esse framework é de uso da Merci e seus parceiros a fim de construir recursos de integração entre nosso sistemas.
@@ -20,9 +20,9 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/merci-app/withdrawalkit-podspec'
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.authors      = { 'Denis Oliveira' => 'denis @ merci dot app' }
-  spec.source       = { :git => 'https://github.com/merci-app/withdrawalkit-podespec.git', :tag => '1.8.1' }
+  spec.source       = { :git => 'https://github.com/merci-app/withdrawalkit-podespec.git', :tag => '1.9.0' }
  
-  spec.ios.deployment_target = '9.0'
+  spec.ios.deployment_target = '10.0'
   spec.vendored_frameworks   = [
     'MCIWithdrawal.xcframework',
     'WithdrawalKit.xcframework'
