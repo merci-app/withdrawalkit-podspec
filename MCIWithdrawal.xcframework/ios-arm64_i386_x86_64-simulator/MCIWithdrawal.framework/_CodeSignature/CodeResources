@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		TfAJty04E2OpUyorW8bSOOO8FLw=
+		E4EH9VlKKD7Vk5fp50MUkJrCSw8=
 		</data>
 		<key>Headers/MCIWithdrawal-Swift.h</key>
 		<data>
-		9C7PI7gdCMcFBiw3n27/aIdwOGM=
+		nbcaULogLBk1OFkwgFoa4ZwSh/c=
 		</data>
 		<key>Headers/MCIWithdrawal.h</key>
 		<data>
@@ -18,79 +18,43 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8xIOXrvEnE/LPHszC+Y2L5NhexA=
+		6IEu89h2pjl+zYVYtxAf+UIYqyA=
 		</data>
 		<key>Modules/MCIWithdrawal.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		LxfZHYzd3DFmtRROhPtBV23qXiU=
+		EtRd7qFGvg8OxvbHpXWP9IZ6jtA=
 		</data>
 		<key>Modules/MCIWithdrawal.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		YiO4MP1x6+gqDGOs7NRc7hxkE6w=
+		nvoNEQFauEtem/SsBJFbqV7+FWs=
 		</data>
 		<key>Modules/MCIWithdrawal.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0E1zyvkU2P60ldk/fRX+9dpjKNo=
-		</data>
-		<key>Modules/MCIWithdrawal.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		LxfZHYzd3DFmtRROhPtBV23qXiU=
-		</data>
-		<key>Modules/MCIWithdrawal.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		YiO4MP1x6+gqDGOs7NRc7hxkE6w=
-		</data>
-		<key>Modules/MCIWithdrawal.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		0E1zyvkU2P60ldk/fRX+9dpjKNo=
+		XFjX9yjy7FJzotIZQ2Jtgksed8I=
 		</data>
 		<key>Modules/MCIWithdrawal.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
-		mOExy3XMmN90sr+AhKyNxc6G+U0=
+		GfnT3zNm4BRGcoybtW41A4l40AU=
 		</data>
 		<key>Modules/MCIWithdrawal.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GOlWNmv8xxuc1LV4vqUDuSqWc0s=
+		lorGsMyTGBgkOZ70896lRuGmLn4=
 		</data>
 		<key>Modules/MCIWithdrawal.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		TNG1k5UPvs53kPMruBExjj94xK4=
-		</data>
-		<key>Modules/MCIWithdrawal.swiftmodule/i386.swiftdoc</key>
-		<data>
-		mOExy3XMmN90sr+AhKyNxc6G+U0=
-		</data>
-		<key>Modules/MCIWithdrawal.swiftmodule/i386.swiftinterface</key>
-		<data>
-		GOlWNmv8xxuc1LV4vqUDuSqWc0s=
-		</data>
-		<key>Modules/MCIWithdrawal.swiftmodule/i386.swiftmodule</key>
-		<data>
-		TNG1k5UPvs53kPMruBExjj94xK4=
+		7qx4JnxRTktR8z3kH7UDeulRodg=
 		</data>
 		<key>Modules/MCIWithdrawal.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		BhekMrAFv/rbxeY39FNG4tw/RXA=
+		QkqoYsi/4O0Stod3EUmpk1xnPBI=
 		</data>
 		<key>Modules/MCIWithdrawal.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yGcnMEt9EVg6l1K3brwzLIQyIx4=
+		7nwm2MuMOiNUSQNc8DnslOwtbJY=
 		</data>
 		<key>Modules/MCIWithdrawal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0dcvoAZYP5B2+KldalPnFtLOtA0=
-		</data>
-		<key>Modules/MCIWithdrawal.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		BhekMrAFv/rbxeY39FNG4tw/RXA=
-		</data>
-		<key>Modules/MCIWithdrawal.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		yGcnMEt9EVg6l1K3brwzLIQyIx4=
-		</data>
-		<key>Modules/MCIWithdrawal.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		0dcvoAZYP5B2+KldalPnFtLOtA0=
+		55wMeJgCR8Wcj1pipf3/S3NWFdI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -211,22 +175,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TfAJty04E2OpUyorW8bSOOO8FLw=
+			E4EH9VlKKD7Vk5fp50MUkJrCSw8=
 			</data>
 			<key>hash2</key>
 			<data>
-			E8IKF0CRMS6NxZyP9rOlMXq4qB8WlgdqvP/K2TN9Sco=
+			n9xEEq60dxusNvhbD2Ekk96+vzfe6MBzfiUoX11C+xI=
 			</data>
 		</dict>
 		<key>Headers/MCIWithdrawal-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9C7PI7gdCMcFBiw3n27/aIdwOGM=
+			nbcaULogLBk1OFkwgFoa4ZwSh/c=
 			</data>
 			<key>hash2</key>
 			<data>
-			4IBgv2J9RNs1d8bnLdGeY/jjxG0MTWigZUe9l2abKF8=
+			/QznC6kIq9yKDOK0rasPg5YjvQc41xJCv/EQKYBIS90=
 			</data>
 		</dict>
 		<key>Headers/MCIWithdrawal.h</key>
@@ -244,198 +208,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			LxfZHYzd3DFmtRROhPtBV23qXiU=
+			EtRd7qFGvg8OxvbHpXWP9IZ6jtA=
 			</data>
 			<key>hash2</key>
 			<data>
-			jm5a00z8z62ot7yQjoRs4mZFMJ2aqK6m/sopUzX69d4=
+			DeRRewyYlauOKHHbODLMwvEBMjguHSdctzSW52I/6HU=
 			</data>
 		</dict>
 		<key>Modules/MCIWithdrawal.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YiO4MP1x6+gqDGOs7NRc7hxkE6w=
+			nvoNEQFauEtem/SsBJFbqV7+FWs=
 			</data>
 			<key>hash2</key>
 			<data>
-			lspSqJG1uPIiMZSVmVqFuaao7gJCVOEg+5v396QX7dw=
+			SVjs4Fgp8+OfqSTVEpwuwpDgS4NjeSC7QahCJ6ZSbxY=
 			</data>
 		</dict>
 		<key>Modules/MCIWithdrawal.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0E1zyvkU2P60ldk/fRX+9dpjKNo=
+			XFjX9yjy7FJzotIZQ2Jtgksed8I=
 			</data>
 			<key>hash2</key>
 			<data>
-			vjcZDmffdylIED+uT0lP8DGJhO8N7dvze8CtbNGNI5g=
-			</data>
-		</dict>
-		<key>Modules/MCIWithdrawal.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			LxfZHYzd3DFmtRROhPtBV23qXiU=
-			</data>
-			<key>hash2</key>
-			<data>
-			jm5a00z8z62ot7yQjoRs4mZFMJ2aqK6m/sopUzX69d4=
-			</data>
-		</dict>
-		<key>Modules/MCIWithdrawal.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			YiO4MP1x6+gqDGOs7NRc7hxkE6w=
-			</data>
-			<key>hash2</key>
-			<data>
-			lspSqJG1uPIiMZSVmVqFuaao7gJCVOEg+5v396QX7dw=
-			</data>
-		</dict>
-		<key>Modules/MCIWithdrawal.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0E1zyvkU2P60ldk/fRX+9dpjKNo=
-			</data>
-			<key>hash2</key>
-			<data>
-			vjcZDmffdylIED+uT0lP8DGJhO8N7dvze8CtbNGNI5g=
+			OBbqMJLy5IrmXE8siSmtQQDHwP1OpLaNiDIGnsLPYKA=
 			</data>
 		</dict>
 		<key>Modules/MCIWithdrawal.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mOExy3XMmN90sr+AhKyNxc6G+U0=
+			GfnT3zNm4BRGcoybtW41A4l40AU=
 			</data>
 			<key>hash2</key>
 			<data>
-			XQyp3CsA86QckHXQp/k0a7xYhoh4dQf5E6krpF6RcQU=
+			Bf21/aneULef/4porzEjhWPj1CS9X9ZhUzQLgdgpFUk=
 			</data>
 		</dict>
 		<key>Modules/MCIWithdrawal.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GOlWNmv8xxuc1LV4vqUDuSqWc0s=
+			lorGsMyTGBgkOZ70896lRuGmLn4=
 			</data>
 			<key>hash2</key>
 			<data>
-			iTapOmSiSMy5h+jyXwun1yX1jSjAbyBnWSnhB4qdRk4=
+			BFiYXr5mSLbra/wXdGXPeZyx7Q5P4D9wGUnMcLWmHS4=
 			</data>
 		</dict>
 		<key>Modules/MCIWithdrawal.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TNG1k5UPvs53kPMruBExjj94xK4=
+			7qx4JnxRTktR8z3kH7UDeulRodg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ksw2j7xSl+KppkG4OFa7fSegARvSHsImwB0soCUeMk8=
-			</data>
-		</dict>
-		<key>Modules/MCIWithdrawal.swiftmodule/i386.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mOExy3XMmN90sr+AhKyNxc6G+U0=
-			</data>
-			<key>hash2</key>
-			<data>
-			XQyp3CsA86QckHXQp/k0a7xYhoh4dQf5E6krpF6RcQU=
-			</data>
-		</dict>
-		<key>Modules/MCIWithdrawal.swiftmodule/i386.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GOlWNmv8xxuc1LV4vqUDuSqWc0s=
-			</data>
-			<key>hash2</key>
-			<data>
-			iTapOmSiSMy5h+jyXwun1yX1jSjAbyBnWSnhB4qdRk4=
-			</data>
-		</dict>
-		<key>Modules/MCIWithdrawal.swiftmodule/i386.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			TNG1k5UPvs53kPMruBExjj94xK4=
-			</data>
-			<key>hash2</key>
-			<data>
-			Ksw2j7xSl+KppkG4OFa7fSegARvSHsImwB0soCUeMk8=
+			aej8r5cMAAo9MmCQi9EkQ9V/4cH0GUYwTTsp1vJEy3Y=
 			</data>
 		</dict>
 		<key>Modules/MCIWithdrawal.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BhekMrAFv/rbxeY39FNG4tw/RXA=
+			QkqoYsi/4O0Stod3EUmpk1xnPBI=
 			</data>
 			<key>hash2</key>
 			<data>
-			279cjaPzST8qXX/lSSrkLwob+PFwIFycPsXdJSY6NqE=
+			V3d9OrD7MeemJ1uMlN6fCG+6QbGMCHTXUhv6D5nc56k=
 			</data>
 		</dict>
 		<key>Modules/MCIWithdrawal.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yGcnMEt9EVg6l1K3brwzLIQyIx4=
+			7nwm2MuMOiNUSQNc8DnslOwtbJY=
 			</data>
 			<key>hash2</key>
 			<data>
-			YhtwqjtCmxv1qpP+ATvyaEiC9D8pAaJAL9c/mkilPqQ=
+			6tSxmhqB1+ZJJFUnp18cM55ZvlLl1hAGlB74ahYcskk=
 			</data>
 		</dict>
 		<key>Modules/MCIWithdrawal.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0dcvoAZYP5B2+KldalPnFtLOtA0=
+			55wMeJgCR8Wcj1pipf3/S3NWFdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			f5QzwCfC1aq6EGx3KNUvBwpWdy+Ok0AAzpFh2aSl1QU=
-			</data>
-		</dict>
-		<key>Modules/MCIWithdrawal.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BhekMrAFv/rbxeY39FNG4tw/RXA=
-			</data>
-			<key>hash2</key>
-			<data>
-			279cjaPzST8qXX/lSSrkLwob+PFwIFycPsXdJSY6NqE=
-			</data>
-		</dict>
-		<key>Modules/MCIWithdrawal.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yGcnMEt9EVg6l1K3brwzLIQyIx4=
-			</data>
-			<key>hash2</key>
-			<data>
-			YhtwqjtCmxv1qpP+ATvyaEiC9D8pAaJAL9c/mkilPqQ=
-			</data>
-		</dict>
-		<key>Modules/MCIWithdrawal.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0dcvoAZYP5B2+KldalPnFtLOtA0=
-			</data>
-			<key>hash2</key>
-			<data>
-			f5QzwCfC1aq6EGx3KNUvBwpWdy+Ok0AAzpFh2aSl1QU=
+			2pFpEmiYV66zFosH4gZxcwBmNppK63UCM7k20bkKuOk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
