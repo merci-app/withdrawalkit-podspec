@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		pQEMqEGYnEcg/ooHudqACCjpSFo=
+		peDBdA3gV6jMqikVQhMaWXz94h4=
 		</data>
 		<key>Headers/WithdrawalKit-Swift.h</key>
 		<data>
-		BN0AW3nEpYKj98FcyzNbQFE1HGk=
+		gyRIvbvgbvGCZlGSa3OGfnngJ7s=
 		</data>
 		<key>Headers/WithdrawalKit.h</key>
 		<data>
@@ -18,31 +18,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Vn2Hf8v5840z3Co2EgLXjh1NAbc=
+		t1ndqmGiUnVtJAG7gpJ1L+9ihUE=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Hfcy0tBikbXFhaapr/RJCxO/lIQ=
+		wEApDZAvJdQTBm89ahOEPAg5RMA=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		pzkxcIMDceiTmyoIffJIFqPQu/Y=
+		AAGaVCVZtcPn/1SlAniC7cehhWA=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		5RWdlxr58UzaA7BlWEiWGyHTU7g=
+		t9l0CoOibO7Tr8iDk2R2pPB12hk=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
-		G3NCyDL4bWPFOxxRHAJf+cnJvtE=
+		JfaKHUxwhqxluL7DcQm03GT4djE=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<data>
-		0Gq0BxBtIXDLOUxWoGhjwTFjAQE=
+		PGroaNwjcNf8Wsw77MMrcmH7fjM=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		I23sixALphd79QkoMjEVVb4l6fg=
+		jrBZAbzeMMXvNEl9svUOPyREOAI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,22 +55,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pQEMqEGYnEcg/ooHudqACCjpSFo=
+			peDBdA3gV6jMqikVQhMaWXz94h4=
 			</data>
 			<key>hash2</key>
 			<data>
-			hN1lZ7wXmhURhwYNVJR6zSo4az8JiaXdTrJyxZxz/1k=
+			oyesLbcI5cMgJ81rouzSIHj4BUxHH20qe+1DNxt/vvk=
 			</data>
 		</dict>
 		<key>Headers/WithdrawalKit-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BN0AW3nEpYKj98FcyzNbQFE1HGk=
+			gyRIvbvgbvGCZlGSa3OGfnngJ7s=
 			</data>
 			<key>hash2</key>
 			<data>
-			DxD1N0P5S8j2aK/LYCqcd0S6ZJP+fvaxQ28xMNRFVa0=
+			eQfD+mVUOhMzw2mDVt1UJ8iyIHyagHMwOI+4z/t+PDU=
 			</data>
 		</dict>
 		<key>Headers/WithdrawalKit.h</key>
@@ -88,66 +88,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Hfcy0tBikbXFhaapr/RJCxO/lIQ=
+			wEApDZAvJdQTBm89ahOEPAg5RMA=
 			</data>
 			<key>hash2</key>
 			<data>
-			lEOG1+3jgWzHqmDTnhTBnfPmVCmw1j/x6L/MFY4eNOM=
+			IhScu0e0jOHx8exnoNltTw+Rwy2R6VW2qkNoLvywXMA=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pzkxcIMDceiTmyoIffJIFqPQu/Y=
+			AAGaVCVZtcPn/1SlAniC7cehhWA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q/cxBm9gLJdKTRjTGBxzN6vZBskE0A6YP+YoBMWZSMI=
+			TLmxTBh6Iekzz1YDtNE2VXIvTFgbPs9xkhUrwSa/PKQ=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			5RWdlxr58UzaA7BlWEiWGyHTU7g=
+			t9l0CoOibO7Tr8iDk2R2pPB12hk=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZnEwjSo+xxnzorLt6sMZBrfjd7WmlTyrza0pXKP58Sk=
+			Kf2bUvt59k9qY6Y9iDCw20REOTykHgnD7SZ/9nS2WWU=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			G3NCyDL4bWPFOxxRHAJf+cnJvtE=
+			JfaKHUxwhqxluL7DcQm03GT4djE=
 			</data>
 			<key>hash2</key>
 			<data>
-			fiopD8D9LnZum40ZYUT/DkrtKG5xNJVxYU/yc/ThoDs=
+			/NkjACwabXBaXbH2Tb9sr13Frtx/6h6SSci3moHoZ1w=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/armv7-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0Gq0BxBtIXDLOUxWoGhjwTFjAQE=
+			PGroaNwjcNf8Wsw77MMrcmH7fjM=
 			</data>
 			<key>hash2</key>
 			<data>
-			GmndQgYq7wZ1fy7SHYAVYBXvXVLOTEOr/odf+/m9aY0=
+			9C+bTPbMuKk2kGYkoJO/BajooLdG6ClKZ4eVl1ZDO3M=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			I23sixALphd79QkoMjEVVb4l6fg=
+			jrBZAbzeMMXvNEl9svUOPyREOAI=
 			</data>
 			<key>hash2</key>
 			<data>
-			kXBbOwoCSeUW97PdRrh3focDxRSZXzYvRpFtE2yGQiI=
+			VX+SJe1bXDwhC/qo6aaVyIcSEpKSE4JYxCKzguz/jYY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
