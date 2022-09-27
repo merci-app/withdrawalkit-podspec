@@ -18,7 +18,7 @@ import _StringProcessing
 public struct MCISDKWithdrawal : WithdrawalInjectable {
   public init()
   public func present(_ controller: UIKit.UIViewController, transition: UIKit.UIModalTransitionStyle, completion: (() -> Swift.Void)?)
-  public func presentEmbed(_ controller: inout UIKit.UIViewController, transition: UIKit.UIModalTransitionStyle, title: Swift.String, tabImage: UIKit.UIImage, completion: (() -> Swift.Void)?)
+  public func embed(transition: UIKit.UIModalTransitionStyle, title: Swift.String, tabImage: UIKit.UIImage) -> UIKit.UIViewController
   public func enableSupport(enabled: Swift.Bool)
   public func configureDelegate(delegate: WithdrawalInjectableDelegate)
 }
