@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name            = "WithdrawalKit"
-  spec.version         = "TODO_SET_VERSION"
+  spec.version         = "2.0.0-alpha.8"
   spec.summary         = "WithdrawalKit é framework destinado a Merci e seus parceiros."
   spec.swift_versions  = ['5.3']
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/merci-app/withdrawalkit-podspec'
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.authors      = { 'Thais Sadami' => 'thais dot sadami @ dock dot tech' }
-  spec.source       = { :git => 'https://github.com/merci-app/withdrawalkit-podespec.git', :tag => 'TODO_SET_VERSION' }
+  spec.source       = { :git => 'https://github.com/merci-app/withdrawalkit-podespec.git', :branch => 'version/2.0.0-alpha.8' }
 
   spec.ios.deployment_target = '10.0'
   spec.vendored_frameworks   = [
