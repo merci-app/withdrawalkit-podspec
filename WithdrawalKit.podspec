@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/merci-app/withdrawalkit-podspec'
   spec.license      = { :type => 'MIT', :file => 'LICENSE' }
   spec.authors      = { 'Tiago Oliveira' => 'tiago dot oliveira @ dock dot tech' }
-  spec.source       = { :git => 'https://github.com/merci-app/withdrawalkit-podespec.git', :branch => 'version/1.9.11-v4' }
+  spec.source       = { :git => 'https://github.com/merci-app/withdrawalkit-podespec.git', :tag => '1.9.11' }
  
   spec.ios.deployment_target = '10.0'
   spec.vendored_frameworks   = [
