@@ -1,0 +1,11 @@
+framework module WithdrawalKit {
+  umbrella header "WithdrawalKit.h"
+
+  export *
+  module * { export * }
+}
+
+module WithdrawalKit.Swift {
+  header "WithdrawalKit-Swift.h"
+  requires objc
+}
