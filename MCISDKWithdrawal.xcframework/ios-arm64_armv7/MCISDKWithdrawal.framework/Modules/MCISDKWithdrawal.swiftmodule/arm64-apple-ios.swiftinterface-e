@@ -1,0 +1,48 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name MCISDKWithdrawal
+import Alamofire
+import Foundation
+import Kingfisher
+import MCISDKCheckoutCore
+import MCISDKFoundation
+import MCISDKKit
+import MCISDKLogger
+@_exported import MCISDKWithdrawal
+import Swift
+import UIKit
+import _Concurrency
+public struct MCISDKWithdrawal : WithdrawalInjectable {
+  public init()
+  public func present(_ controller: UIKit.UIViewController, transition: UIKit.UIModalTransitionStyle, completion: (() -> Swift.Void)?)
+  public func embed(transition: UIKit.UIModalTransitionStyle, title: Swift.String, tabImage: UIKit.UIImage) -> UIKit.UIViewController
+  public func configureDelegate(delegate: WithdrawalInjectableDelegate)
+  public func setEnableSupport(_ enabled: Swift.Bool)
+}
+@_hasMissingDesignatedInitializers final public class WithdrawConfig {
+  public static let shared: WithdrawConfig
+  final public var delegate: WithdrawalInjectableDelegate?
+  final public var shouldShowOnboarding: Swift.Bool
+  final public var imageBanner: UIKit.UIImage?
+  @objc deinit
+}
+extension UIKit.UIStoryboard {
+  @_Concurrency.MainActor(unsafe) public class var withdrawal: UIKit.UIStoryboard {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class WithdrawValueVC : MCISDKKit.MCITableViewController, MCISDKKit.Identifiable {
+  @_Concurrency.MainActor(unsafe) @objc override final public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override final public func prepare(for segue: UIKit.UIStoryboardSegue, sender: Any?)
+  @_Concurrency.MainActor(unsafe) final public func configure(with accounts: [MCISDKAccount]?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(style: UIKit.UITableView.Style)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension WithdrawValueVC : CheckoutDelegate {
+  @_Concurrency.MainActor(unsafe) final public func didComplete(with object: Any?)
+}
+extension Foundation.Bundle {
+  public static let withdrawal: Foundation.Bundle
+}
