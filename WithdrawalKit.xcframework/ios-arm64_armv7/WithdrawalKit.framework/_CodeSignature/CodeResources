@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		peDBdA3gV6jMqikVQhMaWXz94h4=
+		FLz/4QnvctBn5lUI7obxdE5SyjI=
 		</data>
 		<key>Headers/WithdrawalKit-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		xoJNOY2/Cv9okiELHgBFeQwYpiA=
+		QCeceKK48/0RtKKVOBWEReZNYtU=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		D+6lJcMC6gyI4FVS65o5jkW4WNg=
+		OYyn1PqQax7LF+CRkI053piW7Gk=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/armv7-apple-ios.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/armv7-apple-ios.swiftmodule</key>
 		<data>
-		A8GNVhiJqBHYUgq+izi5wldkyR4=
+		/XW6QjNbJsMo/7TqfYumWedJoHA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,11 +55,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			peDBdA3gV6jMqikVQhMaWXz94h4=
+			FLz/4QnvctBn5lUI7obxdE5SyjI=
 			</data>
 			<key>hash2</key>
 			<data>
-			oyesLbcI5cMgJ81rouzSIHj4BUxHH20qe+1DNxt/vvk=
+			I04rNJ8ZgiKyZ1Hqv1+ukV+vtZMfDyK1tM3h7pTHzOw=
 			</data>
 		</dict>
 		<key>Headers/WithdrawalKit-Swift.h</key>
@@ -110,11 +110,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			D+6lJcMC6gyI4FVS65o5jkW4WNg=
+			OYyn1PqQax7LF+CRkI053piW7Gk=
 			</data>
 			<key>hash2</key>
 			<data>
-			kvrQ7eQQSHljLdBJdlmMBU9mlid2Y3qhG1Juk3eJ8u4=
+			OlOokhKU6n+SNCkAd4CLtWWSraUchACj2+SX7c3sX4U=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/armv7-apple-ios.swiftdoc</key>
@@ -143,11 +143,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A8GNVhiJqBHYUgq+izi5wldkyR4=
+			/XW6QjNbJsMo/7TqfYumWedJoHA=
 			</data>
 			<key>hash2</key>
 			<data>
-			rPBITctFcxhB/gsWJbj6OvzkSdjxFKmp+L5zH8CFJOY=
+			3lFLtMksTdYRrOST76VKYr/0VIXXqSSvE4ksmYQ+i9M=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
