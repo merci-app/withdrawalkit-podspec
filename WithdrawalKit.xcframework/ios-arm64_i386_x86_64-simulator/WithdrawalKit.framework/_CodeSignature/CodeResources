@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		FLz/4QnvctBn5lUI7obxdE5SyjI=
+		YtTYKdpgqaonb/XowIS/7MsewLo=
 		</data>
 		<key>Headers/WithdrawalKit-Swift.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/uI8gNgiTfKomRukOzkIWqaJpwI=
+		IvcQ/pUF4gxeAxzcCBJMd5vS4zI=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mIem7Kj+XJb/JsbceJR5ZtE7p60=
+		Gq+j6xbGKdEIpaP+ZCm8fP+qQxE=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		56WXhlduPiHZc2ihLmVwzS38vvo=
+		UuPe83wJN2G3VVJRqz2jf9v3VI0=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/i386-apple-ios-simulator.swiftinterface</key>
 		<data>
-		V0sbcbqqcBURypZ4M5n1FSZjekI=
+		OXfQk3gwTU8tnB/UDCpgDYzkaTg=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dVGk/Oi/gqaUpHZIM7O5vl5LB+A=
+		ndfv4ymHxez9R00VkMNCxxEc1tY=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		obcq2ILhr9R3eWdJC92KVA9MAAw=
+		H5V6CyJM1825T26nr5uDbcVlYt4=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MG0A9oeAOxV7PwxAHLeQcs4Il7M=
+		RMOX80T8mJ92dS21lybwsDZB4U4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,11 +67,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FLz/4QnvctBn5lUI7obxdE5SyjI=
+			YtTYKdpgqaonb/XowIS/7MsewLo=
 			</data>
 			<key>hash2</key>
 			<data>
-			I04rNJ8ZgiKyZ1Hqv1+ukV+vtZMfDyK1tM3h7pTHzOw=
+			wzT0BUP6BeN3PDkIz5kQ3ZTkOuiDOhhVZgrWNwIwA98=
 			</data>
 		</dict>
 		<key>Headers/WithdrawalKit-Swift.h</key>
@@ -111,22 +111,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mIem7Kj+XJb/JsbceJR5ZtE7p60=
+			Gq+j6xbGKdEIpaP+ZCm8fP+qQxE=
 			</data>
 			<key>hash2</key>
 			<data>
-			X9hUN6NIenmlauet8aq63PMmPNf+5Pd1j8ZVQzDUdUc=
+			gH6PNaNra+aP11TVWZadHEotGO0qsCR7AEWhatz5rNU=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			56WXhlduPiHZc2ihLmVwzS38vvo=
+			UuPe83wJN2G3VVJRqz2jf9v3VI0=
 			</data>
 			<key>hash2</key>
 			<data>
-			i5X9NuiUjHUyWc1vAvhuUWU5A8BKmqe0mLzHXDcsMuI=
+			TQuglZzMuThlLUKkRXTNfWFG6cLyzIigCNWDUGbmKxk=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -144,22 +144,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V0sbcbqqcBURypZ4M5n1FSZjekI=
+			OXfQk3gwTU8tnB/UDCpgDYzkaTg=
 			</data>
 			<key>hash2</key>
 			<data>
-			pftUh+2UJzn0cF7YxwJBLKxKeNDu+GAB9iwmTiciTi0=
+			gz/MTaHQBWoZRjo84j2xFPsKqmct7l6bRYSoFSFH10Q=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dVGk/Oi/gqaUpHZIM7O5vl5LB+A=
+			ndfv4ymHxez9R00VkMNCxxEc1tY=
 			</data>
 			<key>hash2</key>
 			<data>
-			iT7n6dHBoahCw70iEAxSAPYcDW62fpMcGU/AUDz7hTc=
+			qV/Dv1M2wcd7nai+HZRcWO98596kbMV4G1YIflcpVYA=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -177,22 +177,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			obcq2ILhr9R3eWdJC92KVA9MAAw=
+			H5V6CyJM1825T26nr5uDbcVlYt4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qm0pQDqw7yrHnxHv0HbYY4bmlwyRVEnn4aItqzTxNnQ=
+			9DCTiKHAe8QnIV9DWyU9DloHnS5L4ldwZ0gxjeBLfbY=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MG0A9oeAOxV7PwxAHLeQcs4Il7M=
+			RMOX80T8mJ92dS21lybwsDZB4U4=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Cq6JNDy6xUuZOxgUySInYcvOLo0AeFv1AI+80Uuw/s=
+			OvgOcAO0UPC00bEJcQR5rm4owlQowR62ud5ItwAjyv0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
