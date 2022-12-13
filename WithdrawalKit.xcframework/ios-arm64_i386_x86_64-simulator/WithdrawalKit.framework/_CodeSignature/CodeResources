@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		56WXhlduPiHZc2ihLmVwzS38vvo=
+		v9SLnWBzH5pwsbbKAsBOeVYlFIA=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/i386-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dVGk/Oi/gqaUpHZIM7O5vl5LB+A=
+		DG5MYuRisrUef/+3dPClYhTHhho=
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/WithdrawalKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MG0A9oeAOxV7PwxAHLeQcs4Il7M=
+		67f3SWtcavSKpELCApIuvUADZ0o=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -122,11 +122,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			56WXhlduPiHZc2ihLmVwzS38vvo=
+			v9SLnWBzH5pwsbbKAsBOeVYlFIA=
 			</data>
 			<key>hash2</key>
 			<data>
-			i5X9NuiUjHUyWc1vAvhuUWU5A8BKmqe0mLzHXDcsMuI=
+			jw+Y1YQ9TZfla1dCQ+ZIYPc+r/Oa0uzlWz/79XkTHUA=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/i386-apple-ios-simulator.swiftdoc</key>
@@ -155,11 +155,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dVGk/Oi/gqaUpHZIM7O5vl5LB+A=
+			DG5MYuRisrUef/+3dPClYhTHhho=
 			</data>
 			<key>hash2</key>
 			<data>
-			iT7n6dHBoahCw70iEAxSAPYcDW62fpMcGU/AUDz7hTc=
+			tkw9WkY3+cts8Oq3kfeOZ67+QVUorZN0S+cutctBFfE=
 			</data>
 		</dict>
 		<key>Modules/WithdrawalKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -188,11 +188,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MG0A9oeAOxV7PwxAHLeQcs4Il7M=
+			67f3SWtcavSKpELCApIuvUADZ0o=
 			</data>
 			<key>hash2</key>
 			<data>
-			2Cq6JNDy6xUuZOxgUySInYcvOLo0AeFv1AI+80Uuw/s=
+			hOPiy1hRaY0d3Ai0hFQ/+KXwhKqmVSICUTSYHEDiJLM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
