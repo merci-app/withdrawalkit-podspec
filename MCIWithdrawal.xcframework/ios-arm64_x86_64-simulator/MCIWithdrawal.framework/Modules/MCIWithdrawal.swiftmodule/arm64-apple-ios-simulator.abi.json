@@ -1,0 +1,3584 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MCIFoundation",
+        "printedName": "MCIFoundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCIKit",
+        "printedName": "MCIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MCIWithdrawal",
+        "printedName": "MCIWithdrawal",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MCIWithdrawal",
+                "printedName": "MCIWithdrawal.MCIWithdrawal",
+                "usr": "s:13MCIWithdrawalAAV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13MCIWithdrawalAAVABycfc",
+            "mangledName": "$s13MCIWithdrawalAAVABycfc",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(_:transition:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIModalTransitionStyle",
+                "printedName": "UIKit.UIModalTransitionStyle",
+                "usr": "c:@E@UIModalTransitionStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MCIWithdrawalAAV7present_10transition10completionySo16UIViewControllerC_So22UIModalTransitionStyleVyycSgtF",
+            "mangledName": "$s13MCIWithdrawalAAV7present_10transition10completionySo16UIViewControllerC_So22UIModalTransitionStyleVyycSgtF",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "enableSupport",
+            "printedName": "enableSupport(enabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MCIWithdrawalAAV13enableSupport7enabledySb_tF",
+            "mangledName": "$s13MCIWithdrawalAAV13enableSupport7enabledySb_tF",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configureDelegate",
+            "printedName": "configureDelegate(delegate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WithdrawalInjectableDelegate",
+                "printedName": "MCIFoundation.WithdrawalInjectableDelegate",
+                "usr": "s:13MCIFoundation28WithdrawalInjectableDelegateP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MCIWithdrawalAAV17configureDelegate8delegatey13MCIFoundation020WithdrawalInjectableC0_p_tF",
+            "mangledName": "$s13MCIWithdrawalAAV17configureDelegate8delegatey13MCIFoundation020WithdrawalInjectableC0_p_tF",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13MCIWithdrawalAAV",
+        "mangledName": "$s13MCIWithdrawalAAV",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "WithdrawalInjectable",
+            "printedName": "WithdrawalInjectable",
+            "usr": "s:13MCIFoundation20WithdrawalInjectableP",
+            "mangledName": "$s13MCIFoundation20WithdrawalInjectableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MCIFoundation",
+        "printedName": "MCIFoundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WithdrawConfig",
+        "printedName": "WithdrawConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WithdrawConfig",
+                "printedName": "MCIWithdrawal.WithdrawConfig",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MCIWithdrawal14WithdrawConfigC6sharedACvpZ",
+            "mangledName": "$s13MCIWithdrawal14WithdrawConfigC6sharedACvpZ",
+            "moduleName": "MCIWithdrawal",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WithdrawConfig",
+                    "printedName": "MCIWithdrawal.WithdrawConfig",
+                    "usr": "s:13MCIWithdrawal14WithdrawConfigC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC6sharedACvgZ",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC6sharedACvgZ",
+                "moduleName": "MCIWithdrawal",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isSDK",
+            "printedName": "isSDK",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MCIWithdrawal14WithdrawConfigC5isSDKSbvp",
+            "mangledName": "$s13MCIWithdrawal14WithdrawConfigC5isSDKSbvp",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC5isSDKSbvg",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC5isSDKSbvg",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC5isSDKSbvs",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC5isSDKSbvs",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC5isSDKSbvM",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC5isSDKSbvM",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MCIFoundation.WithdrawalInjectableDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WithdrawalInjectableDelegate",
+                    "printedName": "MCIFoundation.WithdrawalInjectableDelegate",
+                    "usr": "s:13MCIFoundation28WithdrawalInjectableDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MCIWithdrawal14WithdrawConfigC8delegate13MCIFoundation28WithdrawalInjectableDelegate_pSgvp",
+            "mangledName": "$s13MCIWithdrawal14WithdrawConfigC8delegate13MCIFoundation28WithdrawalInjectableDelegate_pSgvp",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MCIFoundation.WithdrawalInjectableDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WithdrawalInjectableDelegate",
+                        "printedName": "MCIFoundation.WithdrawalInjectableDelegate",
+                        "usr": "s:13MCIFoundation28WithdrawalInjectableDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC8delegate13MCIFoundation28WithdrawalInjectableDelegate_pSgvg",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC8delegate13MCIFoundation28WithdrawalInjectableDelegate_pSgvg",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "MCIFoundation.WithdrawalInjectableDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WithdrawalInjectableDelegate",
+                        "printedName": "MCIFoundation.WithdrawalInjectableDelegate",
+                        "usr": "s:13MCIFoundation28WithdrawalInjectableDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC8delegate13MCIFoundation28WithdrawalInjectableDelegate_pSgvs",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC8delegate13MCIFoundation28WithdrawalInjectableDelegate_pSgvs",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC8delegate13MCIFoundation28WithdrawalInjectableDelegate_pSgvM",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC8delegate13MCIFoundation28WithdrawalInjectableDelegate_pSgvM",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldShowOnboarding",
+            "printedName": "shouldShowOnboarding",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MCIWithdrawal14WithdrawConfigC20shouldShowOnboardingSbvp",
+            "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20shouldShowOnboardingSbvp",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC20shouldShowOnboardingSbvg",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20shouldShowOnboardingSbvg",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC20shouldShowOnboardingSbvs",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20shouldShowOnboardingSbvs",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC20shouldShowOnboardingSbvM",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20shouldShowOnboardingSbvM",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageBanner",
+            "printedName": "imageBanner",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MCIWithdrawal14WithdrawConfigC11imageBannerSo7UIImageCSgvp",
+            "mangledName": "$s13MCIWithdrawal14WithdrawConfigC11imageBannerSo7UIImageCSgvp",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC11imageBannerSo7UIImageCSgvg",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC11imageBannerSo7UIImageCSgvg",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC11imageBannerSo7UIImageCSgvs",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC11imageBannerSo7UIImageCSgvs",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC11imageBannerSo7UIImageCSgvM",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC11imageBannerSo7UIImageCSgvM",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageOnboardingFirst",
+            "printedName": "imageOnboardingFirst",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MCIWithdrawal14WithdrawConfigC20imageOnboardingFirstSo7UIImageCSgvp",
+            "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20imageOnboardingFirstSo7UIImageCSgvp",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC20imageOnboardingFirstSo7UIImageCSgvg",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20imageOnboardingFirstSo7UIImageCSgvg",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC20imageOnboardingFirstSo7UIImageCSgvs",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20imageOnboardingFirstSo7UIImageCSgvs",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC20imageOnboardingFirstSo7UIImageCSgvM",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20imageOnboardingFirstSo7UIImageCSgvM",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageOnboardingSecond",
+            "printedName": "imageOnboardingSecond",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MCIWithdrawal14WithdrawConfigC21imageOnboardingSecondSo7UIImageCSgvp",
+            "mangledName": "$s13MCIWithdrawal14WithdrawConfigC21imageOnboardingSecondSo7UIImageCSgvp",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC21imageOnboardingSecondSo7UIImageCSgvg",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC21imageOnboardingSecondSo7UIImageCSgvg",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC21imageOnboardingSecondSo7UIImageCSgvs",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC21imageOnboardingSecondSo7UIImageCSgvs",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC21imageOnboardingSecondSo7UIImageCSgvM",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC21imageOnboardingSecondSo7UIImageCSgvM",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "imageOnboardingThird",
+            "printedName": "imageOnboardingThird",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13MCIWithdrawal14WithdrawConfigC20imageOnboardingThirdSo7UIImageCSgvp",
+            "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20imageOnboardingThirdSo7UIImageCSgvp",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC20imageOnboardingThirdSo7UIImageCSgvg",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20imageOnboardingThirdSo7UIImageCSgvg",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIImage?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC20imageOnboardingThirdSo7UIImageCSgvs",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20imageOnboardingThirdSo7UIImageCSgvs",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13MCIWithdrawal14WithdrawConfigC20imageOnboardingThirdSo7UIImageCSgvM",
+                "mangledName": "$s13MCIWithdrawal14WithdrawConfigC20imageOnboardingThirdSo7UIImageCSgvM",
+                "moduleName": "MCIWithdrawal",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13MCIWithdrawal14WithdrawConfigC",
+        "mangledName": "$s13MCIWithdrawal14WithdrawConfigC",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "MCIKit",
+        "printedName": "MCIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MCIFoundation",
+        "printedName": "MCIFoundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MCIFoundation",
+        "printedName": "MCIFoundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCIKit",
+        "printedName": "MCIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCILogger",
+        "printedName": "MCILogger",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCICheckoutCore",
+        "printedName": "MCICheckoutCore",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "WithdrawValueVC",
+        "printedName": "WithdrawValueVC",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MCIWithdrawal@objc(cs)WithdrawValueVC(im)viewDidLoad",
+            "mangledName": "$s13MCIWithdrawal15WithdrawValueVCC11viewDidLoadyyF",
+            "moduleName": "MCIWithdrawal",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prepare",
+            "printedName": "prepare(for:sender:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIStoryboardSegue",
+                "printedName": "UIKit.UIStoryboardSegue",
+                "usr": "c:objc(cs)UIStoryboardSegue"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@MCIWithdrawal@objc(cs)WithdrawValueVC(im)prepareForSegue:sender:",
+            "mangledName": "$s13MCIWithdrawal15WithdrawValueVCC7prepare3for6senderySo17UIStoryboardSegueC_ypSgtF",
+            "moduleName": "MCIWithdrawal",
+            "overriding": true,
+            "objc_name": "prepareForSegue:sender:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "configure",
+            "printedName": "configure(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[MCIFoundation.MCIAccount]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[MCIFoundation.MCIAccount]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "MCIAccount",
+                        "printedName": "MCIFoundation.MCIAccount",
+                        "usr": "s:13MCIFoundation10MCIAccountC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MCIWithdrawal15WithdrawValueVCC9configure4withySay13MCIFoundation10MCIAccountCGSg_tF",
+            "mangledName": "$s13MCIWithdrawal15WithdrawValueVCC9configure4withySay13MCIFoundation10MCIAccountCGSg_tF",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(style:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WithdrawValueVC",
+                "printedName": "MCIWithdrawal.WithdrawValueVC",
+                "usr": "c:@M@MCIWithdrawal@objc(cs)WithdrawValueVC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Style",
+                "printedName": "UIKit.UITableView.Style",
+                "usr": "c:@E@UITableViewStyle"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MCIWithdrawal@objc(cs)WithdrawValueVC(im)initWithStyle:",
+            "mangledName": "$s13MCIWithdrawal15WithdrawValueVCC5styleACSo16UITableViewStyleV_tcfc",
+            "moduleName": "MCIWithdrawal",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithStyle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WithdrawValueVC",
+                "printedName": "MCIWithdrawal.WithdrawValueVC",
+                "usr": "c:@M@MCIWithdrawal@objc(cs)WithdrawValueVC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MCIWithdrawal@objc(cs)WithdrawValueVC(im)initWithNibName:bundle:",
+            "mangledName": "$s13MCIWithdrawal15WithdrawValueVCC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "MCIWithdrawal",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "MCIWithdrawal.WithdrawValueVC?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WithdrawValueVC",
+                    "printedName": "MCIWithdrawal.WithdrawValueVC",
+                    "usr": "c:@M@MCIWithdrawal@objc(cs)WithdrawValueVC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@MCIWithdrawal@objc(cs)WithdrawValueVC(im)initWithCoder:",
+            "mangledName": "$s13MCIWithdrawal15WithdrawValueVCC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "MCIWithdrawal",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "didComplete",
+            "printedName": "didComplete(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13MCIWithdrawal15WithdrawValueVCC11didComplete4withyypSg_tF",
+            "mangledName": "$s13MCIWithdrawal15WithdrawValueVCC11didComplete4withyypSg_tF",
+            "moduleName": "MCIWithdrawal",
+            "declAttributes": [
+              "Custom",
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@MCIWithdrawal@objc(cs)WithdrawValueVC",
+        "mangledName": "$s13MCIWithdrawal15WithdrawValueVCC",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "Custom",
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UITableViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UITableViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MCITableViewControllerProtocol",
+            "printedName": "MCITableViewControllerProtocol",
+            "usr": "s:6MCIKit30MCITableViewControllerProtocolP",
+            "mangledName": "$s6MCIKit30MCITableViewControllerProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "usr": "s:6MCIKit12IdentifiableP",
+            "mangledName": "$s6MCIKit12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CheckoutDelegate",
+            "printedName": "CheckoutDelegate",
+            "usr": "s:15MCICheckoutCore16CheckoutDelegateP",
+            "mangledName": "$s15MCICheckoutCore16CheckoutDelegateP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MCIKit",
+        "printedName": "MCIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCILogger",
+        "printedName": "MCILogger",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MCIFoundation",
+        "printedName": "MCIFoundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCIKit",
+        "printedName": "MCIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCILogger",
+        "printedName": "MCILogger",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCIFoundation",
+        "printedName": "MCIFoundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MCICheckoutCore",
+        "printedName": "MCICheckoutCore",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MCILogger",
+        "printedName": "MCILogger",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCIFoundation",
+        "printedName": "MCIFoundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCIKit",
+        "printedName": "MCIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCIIssuerViewerCore",
+        "printedName": "MCIIssuerViewerCore",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCICheckoutCore",
+        "printedName": "MCICheckoutCore",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MCIFoundation",
+        "printedName": "MCIFoundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCIKit",
+        "printedName": "MCIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCILogger",
+        "printedName": "MCILogger",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Kingfisher",
+        "printedName": "Kingfisher",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCILogger",
+        "printedName": "MCILogger",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCIFoundation",
+        "printedName": "MCIFoundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCIKit",
+        "printedName": "MCIKit",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCICheckoutCore",
+        "printedName": "MCICheckoutCore",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "Import",
+        "name": "MCIFoundation",
+        "printedName": "MCIFoundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MCIFoundation",
+        "printedName": "MCIFoundation",
+        "declKind": "Import",
+        "moduleName": "MCIWithdrawal"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIStoryboard",
+        "printedName": "UIStoryboard",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "withdrawal",
+            "printedName": "withdrawal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStoryboard",
+                "printedName": "UIKit.UIStoryboard",
+                "usr": "c:objc(cs)UIStoryboard"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So12UIStoryboardC13MCIWithdrawalE10withdrawalABvpZ",
+            "mangledName": "$sSo12UIStoryboardC13MCIWithdrawalE10withdrawalABvpZ",
+            "moduleName": "MCIWithdrawal",
+            "static": true,
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStoryboard",
+                    "printedName": "UIKit.UIStoryboard",
+                    "usr": "c:objc(cs)UIStoryboard"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So12UIStoryboardC13MCIWithdrawalE10withdrawalABvgZ",
+                "mangledName": "$sSo12UIStoryboardC13MCIWithdrawalE10withdrawalABvgZ",
+                "moduleName": "MCIWithdrawal",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIStoryboard",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "5.0",
+        "objc_name": "UIStoryboard",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Bundle",
+        "printedName": "Bundle",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "withdrawal",
+            "printedName": "withdrawal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So8NSBundleC13MCIWithdrawalE10withdrawalABvpZ",
+            "mangledName": "$sSo8NSBundleC13MCIWithdrawalE10withdrawalABvpZ",
+            "moduleName": "MCIWithdrawal",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So8NSBundleC13MCIWithdrawalE10withdrawalABvgZ",
+                "mangledName": "$sSo8NSBundleC13MCIWithdrawalE10withdrawalABvgZ",
+                "moduleName": "MCIWithdrawal",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)NSBundle",
+        "moduleName": "Foundation",
+        "isOpen": true,
+        "objc_name": "NSBundle",
+        "declAttributes": [
+          "ObjC",
+          "NonSendable",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/MCIWithdrawal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1011,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 303,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 419,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 3461,
+      "length": 36,
+      "value": "\"O saque foi realizado com sucesso?\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 3535,
+      "length": 63,
+      "value": "\"Você conseguiu retirar o valor desejado com o caixa da loja?\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3723,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 3777,
+      "length": 21,
+      "value": "\"Sim, deu tudo certo\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 3849,
+      "length": 28,
+      "value": "\"O saque não foi realizado\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 4178,
+      "length": 39,
+      "value": "\"Você precisa de ajuda com seu saque?\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 4255,
+      "length": 75,
+      "value": "\"Ocorreu algum problema que te impediu de fazer o saque no valor desejado?\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4455,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 4509,
+      "length": 18,
+      "value": "\"Preciso de ajuda\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 4578,
+      "length": 16,
+      "value": "\"Não, obrigado\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 4865,
+      "length": 31,
+      "value": "\"Desbloqueie sua conta digital\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 4934,
+      "length": 57,
+      "value": "\"Você precisa de uma conta digital ativa pra continuar.\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5116,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 5170,
+      "length": 13,
+      "value": "\"Ok, entendi\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 5234,
+      "length": 16,
+      "value": "\"Não, obrigado\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5303,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5887,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 5994,
+      "length": 10,
+      "value": "\"Cancelar\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/MCIAlertVC+Withdrawal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6067,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Extensions\/UIStoryboard+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 279,
+      "length": 12,
+      "value": "\"Withdrawal\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 6,
+      "value": "\"0.00\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 669,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 773,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1276,
+      "length": 31,
+      "value": "\"WithdrawValueToWithdrawCodeVC\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2107,
+      "length": 4,
+      "value": "0.00"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2115,
+      "length": 5,
+      "value": "100.0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2175,
+      "length": 6,
+      "value": "\"%.2f\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2277,
+      "length": 4,
+      "value": "0.00"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2409,
+      "length": 4,
+      "value": "0.00"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2454,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2672,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2719,
+      "length": 34,
+      "value": "\"Valor mínimo de \""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2752,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2920,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2967,
+      "length": 34,
+      "value": "\"Valor máximo de \""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3000,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3074,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3293,
+      "length": 4,
+      "value": "0.00"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3530,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4176,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4554,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4730,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4779,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4832,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4949,
+      "length": 31,
+      "value": "\"WithdrawValueToWithdrawCodeVC\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "Array",
+      "offset": 5147,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5235,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5369,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawValueVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5383,
+      "length": 2,
+      "value": "\" -> deinit\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/CustomViews\/PaySectionHeaderView.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/CustomViews\/PaySectionHeaderView.swift",
+      "kind": "StringLiteral",
+      "offset": 386,
+      "length": 2,
+      "value": "\" -> deinit\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 776,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1536,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1609,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1683,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 1889,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2024,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2223,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2407,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 2567,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2690,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2722,
+      "length": 9,
+      "value": "\"Pronto!\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2800,
+      "length": 10,
+      "value": "\"Próximo\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2916,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2941,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3128,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 3142,
+      "length": 2,
+      "value": "\" -> deinit\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3430,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4014,
+      "length": 46,
+      "value": "\"Saque dinheiro usando o app no caixa da loja\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4091,
+      "length": 65,
+      "value": "\"Vá com o app \""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4116,
+      "length": 1,
+      "value": "\" a uma loja da rede e procure um caixa.\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4323,
+      "length": 45,
+      "value": "\"Escolha o valor e a conta de onde vai sacar\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4399,
+      "length": 74,
+      "value": "\"Você pode verificar o saldo disponível para cada conta antes de sacar.\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4639,
+      "length": 30,
+      "value": "\"Digite a sua senha e pronto!\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawOnboardVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4700,
+      "length": 94,
+      "value": "\"Um código de saque será gerado, aí é só você mostrar pro caixa e pegar seu dinheiro ;)\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/UserDefaults+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 223,
+      "length": 26,
+      "value": "\"CDTWithdrawOnboardViewed\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 444,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 16,
+      "value": "\"Sacar dinheiro\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 589,
+      "length": 40,
+      "value": "\"Selecione o cartão para fazer o saque\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 687,
+      "length": 7,
+      "value": "\"Sacar\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 755,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 871,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "FloatLiteral",
+      "offset": 1196,
+      "length": 4,
+      "value": "0.00"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "FloatLiteral",
+      "offset": 1290,
+      "length": 4,
+      "value": "0.00"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 1347,
+      "length": 11,
+      "value": "\"Atenção\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 1360,
+      "length": 22,
+      "value": "\"Saldo insuficiente..\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 1493,
+      "length": 11,
+      "value": "\"Atenção\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Checkout\/WithdrawCheckoutStrategy.swift",
+      "kind": "StringLiteral",
+      "offset": 1506,
+      "length": 18,
+      "value": "\"Valor inválido.\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 593,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 596,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "Array",
+      "offset": 1121,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1934,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2017,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2020,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 2396,
+      "length": 27,
+      "value": "\"WithdrawToWithdrawValueVC\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3285,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3346,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3583,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3714,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4136,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4183,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4244,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4270,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4281,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4291,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4353,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 4847,
+      "length": 4,
+      "value": "72.0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5534,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 5615,
+      "length": 24,
+      "value": "\"WithdrawToOnboardSegue\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6189,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6555,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7464,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7591,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7680,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8145,
+      "length": 27,
+      "value": "\"WithdrawToWithdrawValueVC\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8444,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 8503,
+      "length": 18,
+      "value": "\"unwindToWalletVC\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8604,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9009,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9060,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9908,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10471,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 12044,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 12058,
+      "length": 2,
+      "value": "\" -> deinit\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12405,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 12505,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13847,
+      "length": 2,
+      "value": "72"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14145,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14166,
+      "length": 43,
+      "value": "\"Did select item at indexPath \""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 14208,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "Array",
+      "offset": 15295,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15414,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 16299,
+      "length": 15,
+      "value": "\"Abrir no Maps\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16429,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "Dictionary",
+      "offset": 16501,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 16835,
+      "length": 22,
+      "value": "\"Abrir no Google Maps\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 16978,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "Dictionary",
+      "offset": 17056,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 17359,
+      "length": 15,
+      "value": "\"Abrir no Waze\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17489,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "Dictionary",
+      "offset": 17561,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 17864,
+      "length": 15,
+      "value": "\"Abrir no Uber\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 17994,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "Dictionary",
+      "offset": 18066,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18215,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "StringLiteral",
+      "offset": 18290,
+      "length": 10,
+      "value": "\"Cancelar\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 18615,
+      "length": 3,
+      "value": "700"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18675,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Layout\/PayOnboardFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 851,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Layout\/PayOnboardFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 887,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Layout\/PayOnboardFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1712,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Layout\/PayOnboardFlowLayout.swift",
+      "kind": "FloatLiteral",
+      "offset": 1717,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Layout\/PayOnboardFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1758,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Layout\/PayOnboardFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1909,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Layout\/PayOnboardFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1914,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Layout\/PayOnboardFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2032,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Layout\/PayOnboardFlowLayout.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2149,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Layout\/PayOnboardFlowLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 2229,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/Layout\/PayOnboardFlowLayout.swift",
+      "kind": "StringLiteral",
+      "offset": 2243,
+      "length": 2,
+      "value": "\" -> deinit\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "Array",
+      "offset": 1323,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 1410,
+      "length": 6,
+      "value": "\"0.00\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2151,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2321,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2361,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2764,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3007,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3054,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3149,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3190,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3229,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3325,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3398,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3480,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3555,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3661,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 3966,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4092,
+      "length": 19,
+      "value": "\"Saldo disponível\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4152,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 4300,
+      "length": 21,
+      "value": "\"Cartão selecionado\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4362,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4611,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4774,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4921,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5125,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5588,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5721,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5962,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 6021,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6377,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 6496,
+      "length": 20,
+      "value": "\"unwindToWithdrawVC\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6601,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "Array",
+      "offset": 7532,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7749,
+      "length": 25,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 7763,
+      "length": 2,
+      "value": "\" -> deinit\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9079,
+      "length": 15,
+      "value": "\"contentOffset\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9342,
+      "length": 15,
+      "value": "\"contentOffset\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 9697,
+      "length": 15,
+      "value": "\"contentOffset\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10361,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10374,
+      "length": 3,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10409,
+      "length": 31,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10416,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10431,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10439,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10527,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10578,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10601,
+      "length": 22,
+      "value": "\"0\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10622,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10659,
+      "length": 15,
+      "value": "\"00:\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10673,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10699,
+      "length": 34,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "StringLiteral",
+      "offset": 10732,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 10886,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/WithdrawCodeVC.swift",
+      "kind": "FloatLiteral",
+      "offset": 11076,
+      "length": 4,
+      "value": "0.35"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MCIFoundation+Withdrawal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 426,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MCIFoundation+Withdrawal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MCIFoundation+Withdrawal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 739,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MobileSC+Withdrawal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MobileSC+Withdrawal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 334,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MobileSC+Withdrawal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 376,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MobileSC+Withdrawal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 418,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MobileSC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 1981,
+      "length": 105,
+      "value": "\"\/customers\/withdrawal\/merchants?latitude=\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MobileSC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 2034,
+      "length": 1,
+      "value": "\"&longitude=\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MobileSC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 2057,
+      "length": 1,
+      "value": "\"&limit=\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MobileSC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 2072,
+      "length": 1,
+      "value": "\"&page=\""
+    },
+    {
+      "filePath": "\/Users\/rodrigobrauwers\/Developer\/Dock\/customer-ios\/MerciWorkspace\/Frameworks\/MCIWithdrawal\/MCIWithdrawal\/Withdraw\/API\/MobileSC+Withdrawal.swift",
+      "kind": "StringLiteral",
+      "offset": 2085,
+      "length": 2,
+      "value": "\"\""
+    }
+  ]
+}
